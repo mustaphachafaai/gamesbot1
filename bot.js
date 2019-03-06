@@ -106,7 +106,7 @@ client.on('message', message => {
 })
 
 client.on('message', puz => {
-    if (puz.content == "#لغز") {
+    if (puz.content == "*jom") {
         var x = ["ما هي حاسة الشم عند الثعبان ؟",
 "ما هو الشي الذي يكسو الناس و هو عار بدون ملابس ؟",
 "ما هو الشي الذي لا يجري و لا يمشي ؟",
@@ -157,7 +157,7 @@ client.on('message', puz => {
 })
 
 client.on('message', fkk => {
-    if (fkk.content == "#فكك") {
+    if (fkk.content == "*par") {
         var x = ["المتاح للجميع لا يتاح لي",
 "خعاخع",
 "فيلا",
@@ -215,7 +215,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : 你的母親將被用阿拉伯 ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Panda-Games l 你的母親將被用阿拉伯`,"http://twitch.tv/Light")
+client.user.setGame(`Panda-Games l By 你的母親將被用阿拉伯`,"http://twitch.tv/Light")
 client.user.setStatus("dnd")
 });
 
