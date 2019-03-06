@@ -1,15 +1,15 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "#";
+var prefix = "!?";
 client.on('message', message => {
-    if (message.content == "#سرعه") {
-        var x = ["DreamKing",
+    if (message.content == "games") {
+        var x = ["Panda-Games",
 "DeathGames",
 "زيرو كنج",
 "أرض الأحلام",
 "ألبرازيل",
 "العراق",
-"ألمملكة ألعربية ألسعودية",
+"ألمملكة ألعربية المغربية",
 "القسطنطينية",
 "النهاية",
 "امازون",
@@ -47,7 +47,7 @@ client.on('message', message => {
         "أرض الأحلام",
 		"ألبرازيل",
 		"العراق",
-		"ألمملكة ألعربية ألسعودية",
+		"ألمملكة ألعربية المغربية",
 		"القسطنطينية",
 		"النهاية",
 		"امازون",
