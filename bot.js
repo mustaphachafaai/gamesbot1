@@ -210,12 +210,12 @@ client.on('message', fkk => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Cyhper Script By : DREAM`);
+      console.log(`Cyhper Script By : 你的母親將被用阿拉伯`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : 你的母親將被用阿拉伯 ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Light Games`,"http://twitch.tv/Light")
+client.user.setGame(`Panda-Games l 你的母親將被用阿拉伯`,"http://twitch.tv/Light")
 client.user.setStatus("dnd")
 });
 
