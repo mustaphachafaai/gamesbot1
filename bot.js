@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "!?";
+var prefix = "*";
 client.on('message', message => {
-    if (message.content == "games") {
+    if (message.content == "*games") {
         var x = ["Panda-Games",
 "DeathGames",
 "زيرو كنج",
