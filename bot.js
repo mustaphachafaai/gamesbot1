@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = "*";
 client.on('message', message => {
     if (message.content == "*games") {
-        var x = ["Panda-Games",
+        var x = ["ONLY CHEAT MTA",
 "DeathGames",
 "زيرو كنج",
 "أرض الأحلام",
@@ -210,12 +210,12 @@ client.on('message', fkk => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Cyhper Script By : 你的母親將被用阿拉伯`);
+      console.log(`Cyhper Script By : ROTTA`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : 你的母親將被用阿拉伯 ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : ROTTA' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Panda-Games l By 你的母親將被用阿拉伯`,"http://twitch.tv/Light")
+client.user.setGame(`ONLY CHEAT MTA By ROTTA`,"http://twitch.tv/Light")
 client.user.setStatus("dnd")
 });
 
